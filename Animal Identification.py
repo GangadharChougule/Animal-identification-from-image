@@ -5,7 +5,7 @@ from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, d
 model = ResNet50(weights='imagenet')
 
 
-image = cv2.imread('/content/download.jfif')
+image = cv2.imread('image file path')
 image = cv2.resize(image, (224,224))
 
 
